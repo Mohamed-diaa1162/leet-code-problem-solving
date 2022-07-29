@@ -1,5 +1,9 @@
 //#solved
 // problem link https://leetcode.com/problems/find-and-replace-pattern
+/*
+ * here just compere the patterns between the words
+ * and the word that match the pattern we will push it into array of string and return it
+ */
 function findAndReplacePattern(words: string[], pattern: string): string[] {
   const result: string[] = [];
   const checkedPattern: number = getPatterns(pattern);
