@@ -1,4 +1,6 @@
 "use strict";
+//#solved
+// problem link https://leetcode.com/problems/poor-pigs/
 function poorPigs(buckets, minutesToDie, minutesToTest) {
     if (buckets-- == 1) {
         return 0;

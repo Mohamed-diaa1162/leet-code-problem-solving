@@ -1,3 +1,5 @@
+//#solved
+// problem link https://leetcode.com/problems/poor-pigs/
 function poorPigs(
   buckets: number,
   minutesToDie: number,
